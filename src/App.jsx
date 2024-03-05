@@ -16,8 +16,8 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <>
-      <GlobalProvider>
-        <Router>
+      <Router basename='/expenses/'>
+        <GlobalProvider>
           <Routes>
             <Route
               path='/'
@@ -42,8 +42,8 @@ function App() {
             />
             <Route path='/settings' element={<Settings />} />
           </Routes>
-        </Router>
-      </GlobalProvider>
+        </GlobalProvider>
+      </Router>
 
       <ToastContainer />
     </>
