@@ -1,13 +1,31 @@
-# Getting Started
+# Expense Tracker (React)
 
-## Available Scripts
+This app was built with React 18, global context, reducers, state, router and local storage.
 
-In the project directory, you can run:
+## Customize configuration
 
-### `yarn start`
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-Runs the app in the development mode.\
+## Project Setup
 
-### `yarn build`
+```sh
+yarn install
+```
 
-Builds the app for production to the `build` folder.\
+### Compile and Hot-Reload for Development
+
+```sh
+yarn start
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+yarn build
+```
+
+### Compile and serve build
+
+```sh
+yarn preview
+```
