@@ -24,6 +24,10 @@ body {
   width: 350px;
 }
 
+.container a {
+  text-decoration: none;
+}
+
 h1 {
   letter-spacing: 1px;
   margin: 0;
@@ -111,6 +115,10 @@ input[type='number'] {
   margin-bottom: 40px;
 }
 
+.list-style-none {
+  list-style-type: none;
+}
+
 .list li {
   background-color: #fff;
   box-shadow: var(--box-shadow);
@@ -158,4 +166,30 @@ input[type='number'] {
 .footer a {
   text-decoration: none;
   color: #9c88ff;
+}
+
+.btn-clear {
+  cursor: pointer;
+  background-color: #c0392b;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn-green {
+  cursor: pointer;
+  background-color: #2ecc71;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
 }
