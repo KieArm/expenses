@@ -8,7 +8,8 @@ export const checkLocalStorage = () => {
     return savedData;
   } else {
     setTimeout(() => {
-      if (window.location.pathname === '/') {
+      // Adjust this for the deployed location
+      if (window.location.pathname === '/expenses/') {
         toast.success('Welcome, sample data loaded');
       }
     }, 1000);
