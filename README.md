@@ -2,6 +2,12 @@
 
 This app was built with React 18, global context, reducers, state, router and local storage.
 
+[Live Demo](https://kierana.dev/expenses/)
+
+## Preview
+
+![Preview](https://kierana.dev/assets/proj_expenses_react.webp)
+
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
